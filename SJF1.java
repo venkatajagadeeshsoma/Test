@@ -69,8 +69,8 @@ for(int i=0;i<n;i++)
 System.out.println("    "+ AT[i] + "    "+ OUT[i] + "       "+BT[i]+"       "+WT[i]+"       "+TAT[i]); 
 
 AWT=AWT/n; 
-System.out.println("***********************************************"); 
-System.out.println("Avg waiting time="+AWT+"\n***********************************************"); 
+System.out.println("-------------------------------------------------------------------------"); 
+System.out.println("Avg waiting time="+AWT+"\n-----------------------------------------------"); 
 
 for(int i=0;i<n;i++) 
 { 
@@ -79,17 +79,17 @@ ATAT=ATAT+TAT[i];
 }
 
 ATAT=ATAT/n; 
-System.out.println("***********************************************"); 
-System.out.println("Avg turn around time="+ATAT+"\n***********************************************");  
+System.out.println("-------------------------------------------------------------------------"); 
+System.out.println("Avg turn around time="+ATAT+"\n------------------------------------------");  
 
 System.out.println(" ");
 System.out.println(" ");
 System.out.println(" ");
 System.out.println(" ");
-System.out.println("*********************************************************************************************");
+System.out.println("------------------------------------------------------------------------");
 System.out.println(" ");
 System.out.println("                            IMPLEMNTATION USING SJF                    ");
-System.out.println("*********************************************************************************************");
+System.out.println("------------------------------------------------------------------------");
 System.out.println(" ");
 System.out.println(" ");
 for(int i=0;i<n-1;i++) 
@@ -128,8 +128,8 @@ System.out.println("    " + AT[i] + "    "+ OUT[i] + "       "+BT[i]+"       "+W
 
 System.out.println(" ");
 AWT=AWT/n; 
-System.out.println("***********************************************"); 
-System.out.println("Avg waiting time="+AWT+"\n***********************************************"); 
+System.out.println("----------------------------------------------------------------------------------"); 
+System.out.println("Avg waiting time="+AWT+"\n--------------------------------------------------------"); 
 
 for(int i=0;i<n;i++) 
 { 
@@ -138,8 +138,8 @@ ATAT=ATAT+TAT[i];
 }
 
 ATAT=ATAT/n; 
-System.out.println("***********************************************"); 
-System.out.println("Avg turn around time="+ATAT+"\n***********************************************"); 
+System.out.println("----------------------------------------------------------------------------------"); 
+System.out.println("Avg turn around time="+ATAT+"\n----------------------------------------------------"); 
 } 
 }
 
