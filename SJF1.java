@@ -61,9 +61,6 @@ for(int j=0;j<n;j++) {
     TAT[j]=WT[j]+BT[j];
     AWT+=WT[j]; 
 }
-
-
-
 System.out.println("  PROCESS   AT   BT      WT      TAT     "); 
 for(int i=0;i<n;i++) 
 System.out.println("    "+ AT[i] + "    "+ OUT[i] + "       "+BT[i]+"       "+WT[i]+"       "+TAT[i]); 
